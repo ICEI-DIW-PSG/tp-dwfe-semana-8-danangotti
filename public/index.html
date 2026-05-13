@@ -1,12 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Semana 8</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <h1>Abra o Console (F12) para ver os resultados</h1>
+
+    <div id="output">
+        <h1 class="titc">Resumo do Catálogo</h1>
+
+       
+        <div id="catalogoFilmes"></div>
+        <div class="resumobox">
+         <h3>Resumo da Biblioteca</h3>
+        <p>Total de itens: <span id="totalItens"></span></p>
+
+        <p>Total de Filmes: <span id="totalFilmes"></span></p>
+
+        <p>Total de Séries: <span id="totalSeries"></span></p>
+
+        <p>Não Assistidos: <span id="naoAssistidos"></span></p>
+
+        <p>Média das Notas: <span id="mediaNotas"></span></p>
+
+        <h3>Top 3</h3>
+
+        <ol id="ranking"></ol>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

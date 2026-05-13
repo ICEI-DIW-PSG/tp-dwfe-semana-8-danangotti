@@ -1,0 +1,53 @@
+#catalogoFilmes{
+    display: flex; /* para organizar os cards em linha */
+    gap: 24px; /* espaço entre os cards */;
+    justify-content: center; /* para centralizar os cards na tela */
+    flex-wrap: wrap; /* para os cards irem pra outra linha se não couberem */
+    padding: 0px 40px; /* para dar um espaçamento nas laterais, pra não ficar colado na borda da tela */
+}
+
+.card{
+width: 180px; /* CARDS ESTAVAM MT GRANDES, ISSO DIMINUI TUDO JUNTO */
+background-color: #1f1f1f; /*cor de fundo do card, pra parecer uma cartinha mrm */
+padding: 12px; /* para dar um espaçamento interno, entre a borda do card e o conteudo */
+border-radius: 12px; /* para arredondar os cantos do card, pra ficar mais bonitinho */
+}
+
+.card img{
+    width: 100%;     /* ocupa 100% do espaço disponível pq antes ocupava o tamanho fixo e uma entrava na outra*/
+    object-fit: cover; /* para a imagem se ajustar ao tamanho do card sem distorcer */
+}
+
+
+h1{
+    text-align: center;
+    background-color: red;
+}
+
+h1, h2, .card h3{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+     background-color: #141414;
+    color: #e5e5e5;
+}
+
+.titc{
+    background-color: #141414;
+    letter-spacing: 10px;
+    color: white;
+    font-size: 50px;
+}
+.card h3{
+color: #e50914;
+}
+
+.resumobox{
+padding:0px 40px;
+
+}
+.resumobox h3{
+    color:red
+}
